@@ -1,0 +1,86 @@
+.experience-skills-container {
+  margin: 0 auto;
+  width: 1044px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row; }
+  .experience-skills-container .experience-container {
+    width: 50%; }
+    .experience-skills-container .experience-container .experience-list-container {
+      padding: 35px 14px 15px 57px; }
+      .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper {
+        padding: 5px 5px 5px 5px; }
+        .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .edit-block-icon {
+          display: none; }
+        .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-title {
+          font-family: 'Roboto', sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 10px; }
+        .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item {
+          height: 53px;
+          border: 1px solid #D7EAF8;
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 7px; }
+          .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title {
+            width: 65%;
+            display: flex;
+            align-items: center; }
+            .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title .skill-title-container {
+              padding-left: 20px; }
+              .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title .skill-title-container .position1, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title .skill-title-container .position2, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title .skill-title-container .position3 {
+                color: #0084FF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 2px;
+                cursor: pointer; }
+              .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title .skill-title-container .organization1, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title .skill-title-container .organization2, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title .skill-title-container .organization3 {
+                color: #9DA6BD;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                cursor: pointer; }
+            .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title.right {
+              width: 50%; }
+              .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title.right .main-skill1, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title.right .main-skill2, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .skill-item-title.right .main-skill3 {
+                color: #0084FF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                font-weight: 700;
+                cursor: pointer; }
+          .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year1, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year2, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year3 {
+            width: 35%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #D7EAF8;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            color: #3297DB;
+            cursor: pointer; }
+            .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year1.right, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year2.right, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year3.right {
+              width: 50%;
+              cursor: default; }
+              .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year1.right img, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year2.right img, .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item .year3.right img {
+                height: 19px;
+                margin-right: 5px; }
+        .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper .experience-list .skill-item:last-child {
+          margin-bottom: 0px; }
+        .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper.skills {
+          padding: 5px 5px 5px 5px; }
+      .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper:hover {
+        position: relative;
+        outline: 2px dashed #23CC52;
+        background-color: rgba(35, 204, 82, 0.17);
+        cursor: pointer; }
+        .experience-skills-container .experience-container .experience-list-container .experience-list-wrapper:hover .edit-block-icon {
+          height: 70px;
+          position: absolute;
+          top: calc(50% - 35px);
+          left: calc(50% - 35px);
+          display: block; }
+      .experience-skills-container .experience-container .experience-list-container.skills {
+        padding: 35px 57px 15px 14px; }
+  .experience-skills-container .skills-container {
+    width: 50%; }

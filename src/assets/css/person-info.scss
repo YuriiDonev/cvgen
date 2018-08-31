@@ -1,0 +1,162 @@
+
+.person-info-container {
+  margin: 0 auto;
+  width: 1044px;
+  height: 338px;
+  background-color: #0084FF;
+  margin-top: 64px;
+
+  display: flex;
+  flex-direction: row;
+
+  .person-info-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 273px;
+    img {
+      height: 159px;
+    }
+  }
+
+  .person-info-data {
+    width: 771px;
+
+    .person-info-text-wrapper {
+      height: 260px;
+      display: flex;
+      align-items: center;
+      .person-info-text {
+        width: 45%;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 70px;
+        .name {
+          height: 40px;
+          display: flex;
+          align-items: center;
+          font-size: 32px;
+          font-weight: 900;
+          white-space: nowrap;
+          overflow: hidden;
+          cursor: pointer;
+          input {
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 32px;
+            font-weight: 900;
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0084FF;
+          }
+        }
+        .job-position {
+          height: 30px;
+          display: flex;
+          align-items: center;
+          font-size: 22px;
+          margin-bottom: 20px;
+          overflow: hidden;
+          cursor: pointer;
+          input {
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 22px;
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0084FF;
+          }
+          input:focus {
+              outline:none;
+          }
+        }
+        .date, .address, .city {
+          font-size: 14px;
+          height: 20px;
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          input {
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 14px;
+            color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+            background-color: #0084FF;
+          }
+
+        }
+        // .date {
+        //   margin-bottom: 5px;
+        // }
+        // .address {
+        //   margin-bottom: 5px;
+        // }
+      }
+
+      .person-phone-email-wrapper {
+        width: 55%;
+        display: flex;
+        // justify-content: center;
+        padding: 70px 0px 0px 0px;
+
+        .person-phone-email-container {
+          .phone-email-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .phone-email-icon {
+              background-color: #0072DB;
+              width: 52px;
+              height: 52px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+            .phone, .email {
+              color: #FFFFFF;
+              font-family: 'Roboto', sans-serif;
+              font-size: 20px;
+              margin-left: 30px;
+              cursor: pointer;
+              input {
+                width: 100%;
+                border: none;
+                outline: none;
+                font-size: 20px;
+                color: #FFFFFF;
+                font-family: 'Roboto', sans-serif;
+                background-color: #0084FF;
+              }
+            }
+          }
+          .phone-email-container:first-child {
+            margin-bottom: 20px;
+            cursor: pointer;
+          }
+
+        }
+
+      }
+    }
+
+
+
+    .social-networks-container {
+      display: flex;
+      align-items: center;
+      height: 78px;
+      img {
+        height: 42px;
+      }
+    }
+
+  }
+
+
+}

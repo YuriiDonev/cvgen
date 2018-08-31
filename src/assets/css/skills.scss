@@ -1,0 +1,134 @@
+
+.experience-skills-container {
+
+  margin: 0 auto;
+  width: 1044px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+
+  .experience-container {
+    width: 50%;
+
+    .experience-list-container {
+      padding: 35px 14px 15px 57px;
+      // padding: 20px 19px 20px 31px;
+
+      .experience-list-wrapper {
+        padding: 5px 5px 5px 5px;
+
+        .edit-block-icon {
+          display: none;
+        }
+
+
+        .experience-title {
+          font-family: 'Roboto', sans-serif;
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 10px;
+        }
+
+        // .experience-title:hover {
+        //   border-top: 1px solid green;
+        // }
+
+        .experience-list {
+
+          .skill-item {
+            height: 53px;
+            border: 1px solid #D7EAF8;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 7px;
+
+            .skill-item-title {
+              width: 65%;
+              display: flex;
+              align-items: center;
+
+              .skill-title-container {
+                padding-left: 20px;
+                .position1, .position2, .position3 {
+                  color: #0084FF;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: 14px;
+                  font-weight: 700;
+                  margin-bottom: 2px;
+                  cursor: pointer;
+                }
+                .organization1, .organization2, .organization3 {
+                  color: #9DA6BD;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: 14px;
+                  cursor: pointer;
+                }
+              }
+
+              &.right {
+                width: 50%;
+                .main-skill1, .main-skill2, .main-skill3 {
+                  color: #0084FF;
+                  font-family: 'Roboto', sans-serif;
+                  font-size: 16px;
+                  font-weight: 700;
+                  cursor: pointer;
+                }
+              }
+            }
+
+            .year1, .year2, .year3  {
+              width: 35%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: #D7EAF8;
+              font-family: 'Roboto', sans-serif;
+              font-size: 14px;
+              color: #3297DB;
+              cursor: pointer;
+
+              &.right {
+                width: 50%;
+                cursor: default;
+                img {
+                  height: 19px;
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+          .skill-item:last-child {
+            margin-bottom: 0px;
+          }
+        }
+
+        &.skills {
+          padding: 5px 5px 5px 5px;
+        }
+      }
+
+      .experience-list-wrapper:hover {
+        position: relative;
+        outline: 2px dashed #23CC52;
+        background-color: rgba(35, 204, 82, 0.17);
+        cursor: pointer;
+        .edit-block-icon {
+          height: 70px;
+          position: absolute;
+          top: calc(50% - 35px);
+          left: calc(50% - 35px);
+          display: block;
+        }
+      }
+
+      &.skills {
+        padding: 35px 57px 15px 14px;
+      }
+    }
+
+  }
+  .skills-container {
+    width: 50%;
+  }
+}

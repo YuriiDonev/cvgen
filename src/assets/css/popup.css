@@ -1,0 +1,10 @@
+.popup-editable {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: #F8954C;
+  border-radius: 10px; }
